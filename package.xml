@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pick_and_place_project</name>
+  <version>0.0.0</version>
+  <description>Pick and Place project</description>
+
+  <maintainer email="pablotoresrodriguez@gmail.com">Pablo Tores Rodriguez</maintainer>
+  <license>TODO</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>controller_manager</depend>
+  <depend>effort_controllers</depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros_control</depend>
+  <depend>joint_state_controller</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>joint_trajectory_controller</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>tf</depend>
+  <depend>xacro</depend>
+  <depend>libjsoncpp-dev</depend>
+  <depend>moveit_simple_controller_manager</depend>
+
+  <!-- CUSTOM -->
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_ros_perception</depend>
+  <depend>moveit_visual_tools</depend>
+  <depend>hardware_interface</depend>
+
+</package>
